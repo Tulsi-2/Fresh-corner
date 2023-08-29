@@ -33,6 +33,7 @@
                             <li><span><i class="fa-brands fa-square-twitter"></i></i></span></li>
                             <li><i class="fa-solid fa-phone"></i>&nbsp;+91 7234563498</li>
                             <li><i class="fa-solid fa-message"></i>&nbsp;seller32@gmail.com</li>
+                            <li><i class="fa-solid fa-user" ></i> Log In |Sign Up</li>
                         </ul>
                     </div>
                 </div>
@@ -41,8 +42,6 @@
     </header>
 
     <section>
-
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
 
@@ -69,20 +68,18 @@
                                 Categories
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#categories">Vitamins and Minerals</a></li>
+                                <li><a class="dropdown-item" href="#categories">Protect Against Disease</a></li>
+                                
+                                <li><a class="dropdown-item" href="#categories">Promotes Good Health</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Health</a>
+                            <a class="nav-link active" aria-current="page" href="#gallery_sec">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link active" aria-current="page" href="#about">About Us</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -101,7 +98,9 @@
                 <div class="col-md">
                     <div>
                         <h1 style="font-weight: 800;">
-                            Fresh Fruits And Vegetables <br><br>........For You! </h1>
+                            <!-- Fresh Fruits And Vegetables <br><br>........For You! -->
+                            WELCOME TO  FRESH CORNER <br><br><span class="auto-type" style=" color: #c44e26;"></span>
+                         </h1>
                     </div>
                 </div>
 
@@ -150,8 +149,8 @@
             </div>
         </div>
     </section>
-    <h2 style="text-align: center; padding-top: 60px;"><u>PRODUCTS</u></h2>
-    <section class="sell-testimonial" id="products">
+    <h2 style="text-align: center; padding-top: 60px;" id="products"><u>PRODUCTS</u></h2>
+    <section class="sell-testimonial" >
         <div class="container">
             <div class="row">
                 <div class="col-lg">
@@ -257,7 +256,7 @@
 
     <section>
         <div class="container">
-            <h2 style="text-align: center;">How Are They Helpful ?</h2>
+            <h2 style="text-align: center;" id="categories">How Are They Helpful ?</h2>
             <div class="row helpful">
 
                 <div class="col-md-4">
@@ -294,7 +293,7 @@
         </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery " id="gallery_sec">
         <h2 style="text-align: center;">GALLERY</h2>
         <div class="container">
             <div class="row">
@@ -310,9 +309,17 @@
             </div>
         </div>
     </section>
+    <section id="about">
+        <div class="container" >
+                <img src="img/about.jpg" alt="" class="img-fluid" style="width:100%;">
+                <div class="centered"><h3 style="color: red;">"Tejas Das</h3><p>Instnatly felt rejuvinated after consuming juicy fruits from here!</p><br>
+                    <h3 style="color: red;">"Vedika Kantal</h3><p>Instnatly felt rejuvinated after consuming juicy fruits from here!</p><br>
+                    <h3 style="color: red;">"Kriti Desai</h3><p>Instnatly felt rejuvinated after consuming juicy fruits from here!</p></div>
+        </div>
+    </section>
 
     <section>
-        <h2 style="text-align: center;">Contact Us</h2>
+        <h2 style="text-align: center; padding-top: 40px;"><u>Contact Us</u></h2>
         <div class="contact">
             <div class="container ">
                 <div class="row">
@@ -324,6 +331,10 @@
                     <div class="col-md-6">
                         <div class="contact-text">
                             <ul>
+                                <li>
+                                    <p>Looking for more information you can intreact with me use my contact info.
+                                        Otherwise you can send a message to me for any query.</p>
+                                </li>
                                 <li><i class="fa-sharp fa-solid fa-location-dot"></i>
                                     <h4>Our Office Address</h4>Palm Court Jamunanagar plot n0.103/44A-!G <br>Mumbai,
                                     Maharashtra
@@ -355,8 +366,7 @@
 
                                     <div class="mb-3">
                                         <label for="phone" class="form-label"></label>
-                                        <input type="phone" class="form-control" id="phone"
-                                            placeholder="Mobile Number">
+                                        <input type="phone" class="form-control" id="phone" placeholder="Mobile Number">
                                         <div class="mb-3">
                                             <label for="email" class="form-label"></label>
                                             <input type="email" class="form-control" id="email"
@@ -382,11 +392,14 @@
 
     </section>
     <footer>
-        <h2 style="color: rgb(26, 115, 26); padding-left: 100px; padding-top: 30px;">FRESH <br>CORNER</h2>
-        <div><i class="fa-regular fa-copyright" style="padding-left: 1000px; word-spacing: 2px;"></i>Copyrights
-            2022-23.Fresh Corner.All Rights
-            Reserved</div>
-       
+        <!-- <h2 style="color: rgb(26, 115, 26); padding-left: 100px; padding-top: 30px; background-color: rgb(202, 160, 242);">FRESH <br>CORNER</h2> -->
+        <div>
+            <p style="background-color :black; color:aliceblue;"><i class="fa-regular fa-copyright"
+                    style="padding-left: 600px; word-spacing: 2px; "></i>2022-23.Fresh Corner.All Rights Reserved
+                Copyrights</p>
+
+        </div>
+
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
@@ -405,10 +418,11 @@
             items: 5
         })
     </script>
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

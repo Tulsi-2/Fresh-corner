@@ -50,6 +50,7 @@ li{
     text-align: center;
     
 }
+
 .heroo::before
 {
     content: "";
@@ -138,7 +139,7 @@ li{
 }
 .slider-box
 {
-    height: 80vh;
+    height: 70vh;
     background-size: cover!important;
     position: relative;
     z-index: 5;
@@ -197,14 +198,25 @@ li{
     padding-top: 60px;
 }
 .map img{
-    height: 520px;
+    height: 540px;
     width: 500px;
 }
 .contact-text ul i{
     color: rgb(14, 108, 14);
-    font-size: 40px;
+    font-size: 30px;
 }
 .contact_form{
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;
 }
+#about {
+    position: relative;
+    text-align: center;
+    color:green;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
